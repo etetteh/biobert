@@ -59,7 +59,7 @@ def build_module_fn(config_path, vocab_path, do_lower_case=True):
     return bert_module_fn
     
     
-MODEL_DIR = "/home/enoch/Documents/experiment/ALBERT_pretrained_models/biobert_pubmed"
+MODEL_DIR = "./biobert_pubmed"
 
 config_path = "{}/config.json".format(MODEL_DIR)
 vocab_path = "{}/vocab.txt".format(MODEL_DIR)
